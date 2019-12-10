@@ -1,0 +1,18 @@
+﻿@using LoginReg.Models;
+@model User;
+
+@{
+ViewData["Title"] = "Big Success";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm"></div>
+        <div class="col-sm">
+            <h2>@ViewData["Title"]</h2>
+            <h2>@Model.FirstName @Model.LastName</h2>
+        </div>
+        <div class="col-sm">
+            <a href="/logout"><button type="submit" class="btn btn-primary">Logout</button></a>
+        </div>
+    </div>

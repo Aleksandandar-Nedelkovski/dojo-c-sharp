@@ -1,0 +1,58 @@
+@using BELTEXAM.Models;
+@using Microsoft.AspNetCore.Http;
+
+@model Event;
+
+<h1>@Model.Title</h1>
+@{
+    int? seshUser = Context.Session.GetInt32("ID");
+    if(Model.CoordinatorID == (int) seshUser)
+    {
+        
+        <a href ="/delete/@Model.ID"><button class = "btn btn-danger">Call it off!</button></a>
+    }
+    else
+    {
+        bool going = false;
+        foreach(var rsvp in Model.Participants)
+        {
+            if(rsvp.User.ID == (int)seshUser)
+            {
+                going = true;
+            }
+        }
+        if(going)
+        {
+            <a href="/UnRsvp/@Model.ID"><button class="btn btn-danger">Leave Event</button></a>
+        }
+        else
+        {
+            if(TempData["Conflict"] == null)
+            {
+            <a href="/Rsvp/@Model.ID"><button class="btn btn-success">Join Event</button></a>
+            }
+            else
+            {
+                <div id="errors">You're already booked!</div>
+            }
+            
+        }
+        
+    }
+
+}
+<h2>Event Coordinator:</h2>
+<p>@Model.Coordinator.FirstName</p>
+<h2>Event Decription:</h2>
+<p>@Model.Description</p>
+<h2>Participants</h2>
+@{
+    foreach(var part in Model.Participants)
+    {
+        if(part.User.ID != (int)seshUser)
+        {
+            <p>@part.User.FirstName</p>
+        }
+        
+    }
+}

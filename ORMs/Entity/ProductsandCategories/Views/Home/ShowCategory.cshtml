@@ -1,0 +1,39 @@
+@using ProductsandCategories.Models
+@model Category
+
+@{
+ViewData["Title"] = "Show Categories";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4"> <br>
+            <h1 class="card-title">@Model.Name</h1>
+        </div>
+        <div class="col-4"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm"> <br>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item font-weight-bold">Products:</li>
+                @foreach (var prod in Model.AssociatedProducts) {
+                <li class="list-group-item">@prod.Product.Name</li>
+                }
+            </ul>
+        </div>
+        <div class="col-2"> </div>
+        <div class="col-sm">
+            <h5 class="my-4">Add Product:</h5>
+            <form asp-action="AddProduct" asp-controller="home" method="POST">
+                <select name="Id" class="form-control mb-3">
+                    @foreach (var product in ViewBag.UnassociatedProducts){
+                    <option value="@product.ProductId">@product.Name</option>
+                    }
+                </select>
+                <button type="submit" class="btn btn-dark">Add</button>
+                @Html.Raw(TempData["alertMessage"])
+            </form>
+        </div>
+    </div>
+</div>

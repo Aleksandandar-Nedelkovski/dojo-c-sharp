@@ -1,0 +1,46 @@
+﻿@using ProductsandCategories.Models
+@model Category
+@{
+ViewData["Title"] = "Categories";
+}
+
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/products">Products <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/categories">Categories <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col"> <br>
+            <h3>New Category</h3>
+            <form asp-action="CreateCategory" asp-controller="Home" method="POST">
+                <div class="form-group">
+                    <label asp-for="Name" class="ml-2"></label>
+                    <input asp-for="Name" class="form-control" placeholder="Category Name">
+                    <span asp-validation-for="Name" style="font-size:small;color:red;" class="ml-2"></span>
+                </div>
+                <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+        </div>
+        <div class="col-2"></div>
+        <div class="col">
+            <h4 class="pt-4 pb-3">Existing Categories</h4>
+            <table class="table table-bordered table-hover bg-white">
+                @foreach (var category in ViewBag.AllCategories) {
+                <tr>
+                    <td><a href="/categories/@category.CategoryId">@category.Name</a></td>
+                </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>

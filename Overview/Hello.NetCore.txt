@@ -1,0 +1,49 @@
+C:\Users\Aleksandar\Downloads\CD\C#\Overview>
+
+C:\Users\Aleksandar\Downloads\CD\C#\Overview>dotnet build
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+MSBUILD : error MSB1003: Specify a project or solution file. The current working directory does not contain a project or solution file.
+
+C:\Users\Aleksandar\Downloads\CD\C#\Overview>mkdir HelloDotNetCore
+
+C:\Users\Aleksandar\Downloads\CD\C#\Overview>cd HelloDotNetCore
+
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore>dotnet new console
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\HelloDotNetCore.csproj...
+  Restoring packages for C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\HelloDotNetCore.csproj...
+  Generating MSBuild file C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\obj\HelloDotNetCore.csproj.nuget.g.props.
+  Generating MSBuild file C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\obj\HelloDotNetCore.csproj.nuget.g.targets.
+  Restore completed in 271.99 ms for C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\HelloDotNetCore.csproj.
+
+Restore succeeded.
+
+
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore>dotnet build
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 47.58 ms for C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\HelloDotNetCore.csproj.
+  HelloDotNetCore -> C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\bin\Debug\netcoreapp2.1\HelloDotNetCore.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.79
+
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore>dotnet HelloDotNetCore.dll
+No executable found matching command "dotnet-HelloDotNetCore.dll"
+
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore>dotnet C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\bin\Debug\netcoreapp2.1\
+No executable found matching command "dotnet-C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\bin\Debug\netcoreapp2.1\"
+
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore>dotnet C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\bin\Debug\netcoreapp2.1\HelloDotNetCore.dll
+Hello World!
+
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore>dotnet run
+Hello World!

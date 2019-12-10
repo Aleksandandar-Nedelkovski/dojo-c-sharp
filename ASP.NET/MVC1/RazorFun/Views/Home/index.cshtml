@@ -1,0 +1,21 @@
+<h2>Here are some delicious foods!</h2>
+@{
+var StringList = new List<string>{
+    "Apple Pie",
+    "Burittos",
+    "Clams Casino",
+    "Donuts"
+    };
+
+    @foreach(var word in StringList)
+    {
+        if(@word[0] == 'C') 
+        {
+        <p style = "color: red">@word</p>
+        }
+        else 
+        {
+            <p>@word</p>
+        }
+    }
+    }

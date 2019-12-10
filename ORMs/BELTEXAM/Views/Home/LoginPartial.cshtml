@@ -1,0 +1,20 @@
+@using BELTEXAM.Models;
+@model Login
+<h2>Log In</h2>
+<form asp-controller="Home" asp-action="Login" method="POST">
+
+    
+    <label asp-for="LoginEmail"></label>
+    <input class="form-control" asp-for="LoginEmail">
+
+    
+    <label asp-for="LoginPassword"></label>
+    <input class="form-control" asp-for="LoginPassword">
+
+    <div id="errors">
+        <span class="error log-error" asp-validation-for="LoginEmail"></span>
+        <span class="error log-error" asp-validation-for="LoginPassword"></span>
+    </div>
+
+    <input class="btn btn-primary" type="submit" value="Log in">
+</form>

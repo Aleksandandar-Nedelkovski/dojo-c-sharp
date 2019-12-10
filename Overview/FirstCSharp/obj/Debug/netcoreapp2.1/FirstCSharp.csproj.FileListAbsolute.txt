@@ -1,0 +1,11 @@
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\FirstCSharp\bin\Debug\netcoreapp2.1\FirstCSharp.deps.json
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\FirstCSharp\bin\Debug\netcoreapp2.1\FirstCSharp.runtimeconfig.json
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\FirstCSharp\bin\Debug\netcoreapp2.1\FirstCSharp.runtimeconfig.dev.json
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\FirstCSharp\bin\Debug\netcoreapp2.1\FirstCSharp.dll
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\FirstCSharp\bin\Debug\netcoreapp2.1\FirstCSharp.pdb
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\FirstCSharp\obj\Debug\netcoreapp2.1\FirstCSharp.csprojAssemblyReference.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\FirstCSharp\obj\Debug\netcoreapp2.1\FirstCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\FirstCSharp\obj\Debug\netcoreapp2.1\FirstCSharp.AssemblyInfoInputs.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\FirstCSharp\obj\Debug\netcoreapp2.1\FirstCSharp.AssemblyInfo.cs
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\FirstCSharp\obj\Debug\netcoreapp2.1\FirstCSharp.dll
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\FirstCSharp\obj\Debug\netcoreapp2.1\FirstCSharp.pdb

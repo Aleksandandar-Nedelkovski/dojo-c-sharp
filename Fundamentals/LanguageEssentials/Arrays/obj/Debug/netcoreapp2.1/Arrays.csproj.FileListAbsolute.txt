@@ -1,0 +1,11 @@
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Arrays\bin\Debug\netcoreapp2.1\Arrays.deps.json
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Arrays\bin\Debug\netcoreapp2.1\Arrays.runtimeconfig.json
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Arrays\bin\Debug\netcoreapp2.1\Arrays.runtimeconfig.dev.json
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Arrays\bin\Debug\netcoreapp2.1\Arrays.dll
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Arrays\bin\Debug\netcoreapp2.1\Arrays.pdb
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Arrays\obj\Debug\netcoreapp2.1\Arrays.csprojAssemblyReference.cache
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Arrays\obj\Debug\netcoreapp2.1\Arrays.csproj.CoreCompileInputs.cache
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Arrays\obj\Debug\netcoreapp2.1\Arrays.AssemblyInfoInputs.cache
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Arrays\obj\Debug\netcoreapp2.1\Arrays.AssemblyInfo.cs
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Arrays\obj\Debug\netcoreapp2.1\Arrays.dll
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Arrays\obj\Debug\netcoreapp2.1\Arrays.pdb

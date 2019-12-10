@@ -1,0 +1,55 @@
+﻿@using CRUDelicious.Models
+@model Dish
+
+@{
+    ViewData["Title"] = "Edit One Dish";
+}
+
+<div class="row">
+    <div class="col-3"></div>
+    <div class="col-6" style="text-align: center">
+        <h1>Edit <i>@ViewBag.OneDish.Name</i></h1>
+        <hr>
+    </div>
+</div>
+
+<form asp-action="Edit" asp-controller="Home" method="POST">
+    <div class="row">
+        <div class="col-5">
+            <div class="form-group">
+                <label asp-for="Chef"><b><i>Chef's Name</i></b></label>
+                <input type="text" asp-for="Chef" class="form-control" value="@ViewBag.OneDish.Chef"/>
+                <span asp-validation-for="Chef"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name"><b><i>Name of Dish</i></b></label>
+                <input type="text" asp-for="Name" class="form-control" value="@ViewBag.OneDish.Name"/>
+                <span asp-validation-for="Name"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Calories"><b><i># of Calories</i></b></label>
+                <input type="number" asp-for="Calories" class="form-control" value="@ViewBag.OneDish.Calories"/>
+                <span asp-validation-for="Calories"></span>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="form-group">
+                <label asp-for="Tastiness"><b><i>Tastiness</i></b></label>
+                <input type="number" asp-for="Tastiness" min="1" max="5" class="form-control" value="@ViewBag.OneDish.Tastiness"/>
+                <span asp-validation-for="Tastiness"></span>
+            </div>
+        </div>
+        <div class="col-5">
+            <div class="form-group">
+                <label asp-for="Description"><b><i>Description</i></b></label>
+                <textarea rows="5" cols="10" class="form-control" asp-for="Description" value="@ViewBag.OneDish.Description"></textarea>
+                <span asp-validation-for="Description"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit">Edit Dish</button>
+            </div>
+            <button><a href="/All">Cancel</button></a>
+        </div>
+    </div>
+</form>
+

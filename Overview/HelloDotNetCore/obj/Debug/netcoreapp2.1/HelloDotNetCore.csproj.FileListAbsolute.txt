@@ -1,0 +1,11 @@
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\bin\Debug\netcoreapp2.1\HelloDotNetCore.deps.json
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\bin\Debug\netcoreapp2.1\HelloDotNetCore.runtimeconfig.json
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\bin\Debug\netcoreapp2.1\HelloDotNetCore.runtimeconfig.dev.json
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\bin\Debug\netcoreapp2.1\HelloDotNetCore.dll
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\bin\Debug\netcoreapp2.1\HelloDotNetCore.pdb
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\obj\Debug\netcoreapp2.1\HelloDotNetCore.csprojAssemblyReference.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\obj\Debug\netcoreapp2.1\HelloDotNetCore.csproj.CoreCompileInputs.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\obj\Debug\netcoreapp2.1\HelloDotNetCore.AssemblyInfoInputs.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\obj\Debug\netcoreapp2.1\HelloDotNetCore.AssemblyInfo.cs
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\obj\Debug\netcoreapp2.1\HelloDotNetCore.dll
+C:\Users\Aleksandar\Downloads\CD\C#\Overview\HelloDotNetCore\obj\Debug\netcoreapp2.1\HelloDotNetCore.pdb

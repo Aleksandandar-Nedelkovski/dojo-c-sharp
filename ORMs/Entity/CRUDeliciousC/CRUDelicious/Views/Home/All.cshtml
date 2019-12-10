@@ -1,0 +1,22 @@
+@using CRUDelicious.Models
+@model Dish
+
+@{
+    ViewData["Title"] = "All Dishes";
+}
+
+<h3>Check out some recent dishes!</h3>
+<hr>
+<div class="row">
+    <div class="col-6">
+        @for(int i= @ViewBag.AllDishes.Count-1; i >=0; i--)
+        {
+            <p><a href="@ViewBag.AllDishes[i].DishId">@ViewBag.AllDishes[i].Name</a> by @ViewBag.AllDishes[i].Chef</p>
+        }
+    </div>
+    <div class="col-6">
+        <a href="/new">Add a Dish</a>
+    </div>
+</div>
+
+

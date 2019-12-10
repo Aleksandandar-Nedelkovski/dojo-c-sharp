@@ -1,0 +1,19 @@
+﻿@model Quote
+<h1>Add a quote:</h1>
+<form asp-action="Create" asp-controllet="Home" method="post">
+    <span asp-validation-for="Name"></span>
+    <label asp-for="Name">Name:</label>
+    <input asp-for="Name">
+    
+    <span asp-validation-for="Content"></span>
+    <label asp-for="Content">Quote:</label>
+    <input asp-for="Content">
+
+    <button type="submit">Add</button>
+</form>
+
+<h1>My Awesome Quotes</h1>
+@foreach (var quote in ViewBag.AllQuotes)
+{
+    <p><b>@quote["content"] </b> <i>-- @quote["name"]</i></p>
+}

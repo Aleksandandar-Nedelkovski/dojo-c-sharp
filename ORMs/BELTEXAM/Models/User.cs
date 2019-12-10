@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+
+
+namespace BELTEXAM.Models
+{
+    public class User
+    {
+        [Key]
+        public int ID{get;set;}
+        [Required(ErrorMessage="'First Name' field required")]
+        [MinLength(3, ErrorMessage="Minimum 'First Name' length 3 characters")]
+        [Display(Name="First Name: ")]
+        public string FirstName{get;set;}
+        [Required(ErrorMessage="'Last Name' field required")]
+        [MinLength(3, ErrorMessage="Minimum 'Last Name' length 3 characters")]
+        [Display(Name="Last Name: ")]
+        public string LastName{get;set;}
+        [Required(ErrorMessage="'Email Address' field required")]
+        [EmailAddress(ErrorMessage="No funny business, now")]
+        [Display(Name="Email Address: ")]
+        [DataType(DataType.EmailAddress)]
+        public string Email{get;set;}
+        [Required(ErrorMessage="'Password' field required")]
+        [MinLength(8, ErrorMessage="Insufficient Password length")]
+        [Display(Name="Password: ")]
+        [DataType(DataType.Password)]
+        public string Password{get;set;}
+        [NotMapped]
+        [Required(ErrorMessage="Please confirm your password")]
+        [Compare("Password", ErrorMessage="Passwords do not match")]
+        [DataType(DataType.Password)]
+        [Display(Name="Confirm Password: ")]
+        public string ConfirmPassword{get;set;}
+        public DateTime CreatedAt
+        {
+            get
+            {
+                return DateTime.Now;
+            }
+        }
+        public DateTime UpdatedAt{get;set;}
+        public List<Participant> Participants {get;set;}
+    }
+}

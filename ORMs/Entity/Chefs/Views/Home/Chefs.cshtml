@@ -1,0 +1,36 @@
+﻿@using Chefs.Models
+@model Chef
+
+@{
+ViewData["Title"] = "Check out our roster of Chefs!";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col"> <br>
+            <h2>@ViewData["Title"]</h2> <br>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Age</th>
+                        <th scope="col"># of Dishes</th>
+                    </tr>
+                </thead>
+
+                @for(int i= @ViewBag.AllChefs.Count-1; i >=0; i--)
+                {
+                <tr>
+                    <td> <a href="@ViewBag.AllChefs[i].ChefId">@ViewBag.AllChefs[i].FirstName
+                            @ViewBag.AllChefs[i].LastName</a> </td>
+                            <td>3</td>
+                            <td>6</td>
+                </tr>
+                }
+            </table>
+        </div>
+        <div class="col-2"> <br>
+            <a href="/newchef"><button type="submit" class="btn btn-primary">Add Chef</button></a>
+        </div>
+    </div>
+</div>

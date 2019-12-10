@@ -1,0 +1,9 @@
+﻿<form asp-action="Count" asp-controller="Home" method="post">
+    <h4>Random passcode (passcode # @ViewBag.count)</h4>
+    <h1>@ViewBag.passcode</h1>
+    <button type="submit">Generate</button>
+</form>
+
+<form asp-action="Clear" asp-controller="Home" method="post">
+    <button type="submit">Clear</button>
+</form>

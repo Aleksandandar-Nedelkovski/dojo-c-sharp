@@ -1,0 +1,27 @@
+<h1>Plan your wedding</h1>
+<a href="dashboard">dashboard</a>
+@using WeddingPlanner.Models;
+@model Wedding
+<form asp-action="AddWedding" asp-controller="Home" method="POST">
+    <label asp-for="WedderOne"></label>
+    <input asp-for="WedderOne">
+
+    <label asp-for="WedderTwo"></label>
+    <input asp-for="WedderTwo">
+
+    <label asp-for="When"></label>
+    <input asp-for="When">
+
+    <label asp-for="Address"></label>
+    <input asp-for="Address">
+
+    <div id="errors">
+        <span asp-validation-for="WedderOne"></span>
+        <span asp-validation-for="WedderTwo"></span>
+        <span asp-validation-for="When"></span>
+        <span asp-validation-for="Address"></span>
+    </div>
+
+    <input type="submit" value="I Hear Bells!">
+
+</form>

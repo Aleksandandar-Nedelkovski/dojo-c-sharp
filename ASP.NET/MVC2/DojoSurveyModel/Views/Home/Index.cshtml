@@ -1,0 +1,30 @@
+﻿<h1>Dojo Survey Model</h1>
+<form action="/survey" method="POST">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Name:</label>
+        <input type="text" class="form-control" placeholder="Enter name" name="Name">
+    </div>
+    <div class="col-auto my-1">
+        <label class="mr-sm-2" for="inlineFormCustomSelect">Dojo Location</label>
+        <select class="custom-select mr-sm-2" name="Locatioin">
+            <option value="Chicago">Chicago</option>
+            <option value="San Jose">San Jose</option>
+            <option value="Tulsa">Tulsa</option>
+            <option value="Berkeley">Berkeley</option>
+        </select>
+    </div>
+    <div class="col-auto my-1">
+        <label class="mr-sm-2" for="inlineFormCustomSelect">Fav Language:</label>
+        <select class="custom-select mr-sm-2" name="Language">
+            <option value="C#">C#</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="JavaScript">JavaScript</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Comments</label>
+        <textarea class="form-control" name="Comments" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

@@ -1,0 +1,17 @@
+@using WeddingPlanner.Models
+@model Wedding
+<h1>@Model.WedderOne and @Model.WedderTwo's Wedding!</h1>
+<a href="/dashboard">dashboard</a>
+<a href="logout">logout</a>
+<h3>Date:</h3>
+<h4>@Model.When.ToString("dddd, MMMM dd yyyy")</h4>
+<h3>Guest List:</h3>
+@{
+    foreach(var RSVP in Model.RSVPs)
+    {
+
+        <p>@RSVP.User.FirstName</p>
+    }
+}
+<h3>Address:</h3>
+<h4>@Model.Address</h4>

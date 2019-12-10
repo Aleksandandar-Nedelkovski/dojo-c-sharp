@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "Login_Regis";
+}
+
+<h1>Register</h1>
+<partial name="Index"></partial>
+
+<h1>Login</h1>
+<partial name="Result"></partial>
+

@@ -1,0 +1,33 @@
+﻿@using CRUDelicious.Models
+@model Dish
+
+@{
+    ViewData["Title"] = "View One Dish";
+}
+
+<div class="row">
+    <div class="col-3"></div>
+    <div class="col-6" style="text-align: center">
+        <h1>@ViewBag.OneDish[0].Name</h1>
+        <h4><i>@ViewBag.OneDish[0].Chef</i></h4>
+        <hr>
+    </div>
+    <div class="col-3"></div>
+</div>
+<div class="row">
+    <div class="col-2"></div>
+    <div class="col-10">
+        <p>@ViewBag.OneDish[0].Description</p>
+        <h4>Calories: @ViewBag.OneDish[0].Calories</h4>
+        <h4>Tastiness: @ViewBag.OneDish[0].Tastiness</h4>
+        <br>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6" style="text-align: center">
+        <button><a href="@ViewBag.OneDish[0].DishId/delete" style="color:red">Delete</a></button>
+    </div>
+    <div class="col-6" style="text-align: center">
+        <button><a href="@ViewBag.OneDish[0].DishId/show" style="color:blue">Edit</a></button>
+    </div>
+</div>

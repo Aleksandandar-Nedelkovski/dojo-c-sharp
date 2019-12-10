@@ -1,0 +1,11 @@
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HungryNinja\obj\Debug\netcoreapp2.1\HungryNinja.csprojAssemblyReference.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HungryNinja\obj\Debug\netcoreapp2.1\HungryNinja.csproj.CoreCompileInputs.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HungryNinja\obj\Debug\netcoreapp2.1\HungryNinja.AssemblyInfoInputs.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HungryNinja\obj\Debug\netcoreapp2.1\HungryNinja.AssemblyInfo.cs
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HungryNinja\bin\Debug\netcoreapp2.1\HungryNinja.deps.json
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HungryNinja\bin\Debug\netcoreapp2.1\HungryNinja.runtimeconfig.json
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HungryNinja\bin\Debug\netcoreapp2.1\HungryNinja.runtimeconfig.dev.json
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HungryNinja\bin\Debug\netcoreapp2.1\HungryNinja.dll
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HungryNinja\bin\Debug\netcoreapp2.1\HungryNinja.pdb
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HungryNinja\obj\Debug\netcoreapp2.1\HungryNinja.dll
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HungryNinja\obj\Debug\netcoreapp2.1\HungryNinja.pdb

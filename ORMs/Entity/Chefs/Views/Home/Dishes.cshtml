@@ -1,0 +1,36 @@
+﻿@model Dish
+
+@{
+ViewData["Title"] = "Yum, take a look at our tasty dishes!";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col"> <br>
+            <h2>@ViewData["Title"]</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Chef Name</th>
+                        <th scope="col">Tastiness</th>
+                        <th scope="col">Calories</th>
+                    </tr>
+                </thead>
+                @for(int i= @ViewBag.AllDishes.Count-1; i >=0; i--)
+                {
+                <tr>
+                    <td>@ViewBag.AllDishes[i].Name</td>
+                    <td>@ViewBag.AllDishes[i].ChefId</td>
+                    <td>@ViewBag.AllDishes[i].Tastiness</td>
+                    <td>@ViewBag.AllDishes[i].Calories</td>
+                </tr>
+                }
+            </table>
+        </div>
+        <div class="col-2"> <br>
+            <a href="/dishes/new"><button type="submit" class="btn btn-primary">Add Dish</button></a>
+
+        </div>
+    </div>
+</div>

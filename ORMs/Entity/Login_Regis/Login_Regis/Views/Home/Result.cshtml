@@ -1,0 +1,11 @@
+@using Login_Regis.Models;
+@model User;
+
+@{
+    ViewData["Title"] = "Login_Regis";
+}
+
+<h1>You signed up successfully!!!</h1>
+<h2>@Model.FirstName</h2>
+<h2>@Model.LastName</h2>
+<a href="/Logout">Logout</a>

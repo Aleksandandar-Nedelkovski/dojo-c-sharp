@@ -1,0 +1,11 @@
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Dictionaries\bin\Debug\netcoreapp2.1\Dictionaries.deps.json
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Dictionaries\bin\Debug\netcoreapp2.1\Dictionaries.runtimeconfig.json
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Dictionaries\bin\Debug\netcoreapp2.1\Dictionaries.runtimeconfig.dev.json
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Dictionaries\bin\Debug\netcoreapp2.1\Dictionaries.dll
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Dictionaries\bin\Debug\netcoreapp2.1\Dictionaries.pdb
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Dictionaries\obj\Debug\netcoreapp2.1\Dictionaries.csprojAssemblyReference.cache
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Dictionaries\obj\Debug\netcoreapp2.1\Dictionaries.csproj.CoreCompileInputs.cache
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Dictionaries\obj\Debug\netcoreapp2.1\Dictionaries.AssemblyInfoInputs.cache
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Dictionaries\obj\Debug\netcoreapp2.1\Dictionaries.AssemblyInfo.cs
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Dictionaries\obj\Debug\netcoreapp2.1\Dictionaries.dll
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Dictionaries\obj\Debug\netcoreapp2.1\Dictionaries.pdb

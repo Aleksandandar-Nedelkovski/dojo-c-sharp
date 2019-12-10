@@ -1,0 +1,49 @@
+﻿@model Dish
+@{
+    ViewData["Title"] = "Add a Dish";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-sm"></div>
+        <div class="col-sm">
+            <h2>@ViewData["Title"]</h2>
+            <form asp-action="CreateDish" asp-controller="Home" method="post">
+                <div class="form-group">
+                    <span asp-validation-for="Name"></span>
+                    <label asp-for="Name">Name of Dish</label>
+                    <input asp-for="Name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <span asp-validation-for="Calories"></span>
+                    <label asp-for="Calories"># of Calories</label>
+                    <input asp-for="Calories" type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Calories">
+                </div>
+                <div class="form-group">
+                    <span asp-validation-for="Description"></span>
+                    <label asp-for="Description">Description</label>
+                    <textarea asp-for="Description" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Description"></textarea>
+                </div>
+                <div class="form-group">
+                    <span asp-validation-for="ChefId"></span>
+                    <select asp-for="ChefId" class="form-control">
+                        @foreach(var chef in ViewBag.chef)
+                        {
+                        <option value="@chef.ChefId">@chef.FirstName @chef.LastName</option>
+                        }
+                    </select>
+                </div>
+                <div class="form-group">
+                    <span asp-validation-for="Tastiness"></span>
+                    <label asp-for="Tastiness">Tastiness</label>
+                    <input asp-for="Tastiness" type="number" class="form-control" id="exampleInputEmail1"
+                        placeholder="Tastiness">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="col-sm"></div>
+    </div>
+</div>

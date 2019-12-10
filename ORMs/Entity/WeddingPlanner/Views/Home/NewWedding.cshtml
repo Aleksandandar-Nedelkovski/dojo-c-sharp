@@ -1,0 +1,47 @@
+@model Wedding
+@using WeddingPlanner.Models
+
+@{
+ViewData["Title"] = "Create a Wedding";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col text-center">
+            <h1>Create Wedding</h1>
+        </div>
+        <div class="col-2">
+            <a href="/dashboard"><button type="submit" class="btn btn-primary btn-sm">Dashboard</button></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-6"> <br>
+            <form asp-action="AddWedding" asp-controller="Home" method="POST">
+                <div class="form-group">
+                    <label asp-for="WedderOne"></label>
+                    <input asp-for="WedderOne" class="form-control">
+                    <span asp-validation-for="WedderOne" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="WedderTwo"></label>
+                    <input asp-for="WedderTwo" class="form-control">
+                    <span asp-validation-for="WedderTwo" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="When"></label>
+                    <input asp-for="When" class="form-control">
+                    <span asp-validation-for="When" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address"></label>
+                    <input asp-for="Address" class="form-control">
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>

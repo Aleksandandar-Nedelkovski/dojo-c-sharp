@@ -1,0 +1,11 @@
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\WizardNinja\bin\Debug\netcoreapp2.1\WizardNinja.deps.json
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\WizardNinja\bin\Debug\netcoreapp2.1\WizardNinja.runtimeconfig.json
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\WizardNinja\bin\Debug\netcoreapp2.1\WizardNinja.runtimeconfig.dev.json
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\WizardNinja\bin\Debug\netcoreapp2.1\WizardNinja.dll
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\WizardNinja\bin\Debug\netcoreapp2.1\WizardNinja.pdb
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\WizardNinja\obj\Debug\netcoreapp2.1\WizardNinja.csprojAssemblyReference.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\WizardNinja\obj\Debug\netcoreapp2.1\WizardNinja.csproj.CoreCompileInputs.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\WizardNinja\obj\Debug\netcoreapp2.1\WizardNinja.AssemblyInfoInputs.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\WizardNinja\obj\Debug\netcoreapp2.1\WizardNinja.AssemblyInfo.cs
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\WizardNinja\obj\Debug\netcoreapp2.1\WizardNinja.dll
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\WizardNinja\obj\Debug\netcoreapp2.1\WizardNinja.pdb

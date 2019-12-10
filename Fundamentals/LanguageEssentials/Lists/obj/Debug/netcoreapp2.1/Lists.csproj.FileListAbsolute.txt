@@ -1,0 +1,11 @@
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Lists\bin\Debug\netcoreapp2.1\Lists.deps.json
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Lists\bin\Debug\netcoreapp2.1\Lists.runtimeconfig.json
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Lists\bin\Debug\netcoreapp2.1\Lists.runtimeconfig.dev.json
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Lists\bin\Debug\netcoreapp2.1\Lists.dll
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Lists\bin\Debug\netcoreapp2.1\Lists.pdb
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Lists\obj\Debug\netcoreapp2.1\Lists.csprojAssemblyReference.cache
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Lists\obj\Debug\netcoreapp2.1\Lists.csproj.CoreCompileInputs.cache
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Lists\obj\Debug\netcoreapp2.1\Lists.AssemblyInfoInputs.cache
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Lists\obj\Debug\netcoreapp2.1\Lists.AssemblyInfo.cs
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Lists\obj\Debug\netcoreapp2.1\Lists.dll
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Lists\obj\Debug\netcoreapp2.1\Lists.pdb

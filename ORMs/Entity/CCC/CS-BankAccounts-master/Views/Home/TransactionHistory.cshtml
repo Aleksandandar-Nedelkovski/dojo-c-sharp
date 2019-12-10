@@ -1,0 +1,38 @@
+@using BankAccounts.Models
+@model Transaction
+
+@{
+  ViewData["Title"] = "Dojo Bank";
+}
+<div class="account bg-white p-3">
+  <h4 class="font-weight-bold mb-4">@ViewBag.FirstName @ViewBag.LastName : Transaction History</h4>
+  <form asp-action="processtransaction" asp-controller="Home">
+    <div class="form-group row pr-3">
+      <label asp-for="Amount" class="col-sm-3 col-form-label"></label>
+      <input asp-for="Amount" class="form-control col-sm-3">
+      <label for="balance" class="col-sm-3 col-form-label text-right">Balance:</label>
+      <input type="text" class="form-control col-sm-3" value="$ @ViewBag.UserBalance" readonly>
+    </div>
+    @Html.Raw(TempData["alertMessage"])
+    <button type="submit" class="btn btn-outline-success btn-block mb-3">SUBMIT REQUEST</button>
+    <a href="/logout" role="button" class="btn btn-outline-danger btn-block mb-3">LOGOUT</a>
+  </form>
+  <table class="table table-bordered table-striped">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Amount</th>
+        <th scope="col">Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach (var transaction in ViewBag.UsersTransactions) {
+      <tr>
+        <td>@transaction.AmountString</td>
+        <td>@transaction.CreatedAtString</td>
+      </tr>
+      }
+      <tr>
+      </tr>
+    </tbody>
+  </table>
+</div>

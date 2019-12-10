@@ -1,0 +1,31 @@
+﻿@model User
+<h1>Validating Form Submission</h1>
+
+<form asp-action="survey" asp-controller="Home" method="post">
+    <div class="form-group">
+        <span asp-validation-for="FirstName"></span>
+        <label asp-for="FirstName">First Name:</label>
+        <input asp-for="FirstName" type="text" class="form-control" placeholder="Enter first name" name="FirstName">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="LastName"></span>
+        <label asp-for="LastName">Last Name:</label>
+        <input asp-for="LastName" type="text" class="form-control" placeholder="Enter last name" name="LastName">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Age"></span>
+        <label asp-for="Age">Age:</label>
+        <input asp-for="Age" type="number" class="form-control" placeholder="Enter age" name="Age">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Email"></span>
+        <label asp-for="Email">Email:</label>
+        <input asp-for="Email" type="text" class="form-control" placeholder="Enter email" name="Email">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Password"></span>
+        <label asp-for="Password">Password:</label>
+        <input asp-for="Password" type="password" class="form-control" placeholder="Enter password" name="Password">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

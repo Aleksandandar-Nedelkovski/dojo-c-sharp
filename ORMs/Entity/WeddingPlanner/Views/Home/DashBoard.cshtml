@@ -1,0 +1,73 @@
+@using WeddingPlanner.Models
+@using Microsoft.AspNetCore.Http;
+@model List<Wedding>
+
+    @{
+    ViewData["Title"] = "Dashboard";
+    }
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Welcome to the Wedding Planner, @Context.Session.GetString("UserName")!</h1>
+            </div>
+            <div class="col-2">
+                <a href="logout"><button type="submit" class="btn btn-danger btn-sm">Log Out</button></a>
+                <a href="newwedding"><button type="submit" class="btn btn-primary btn-sm">New Wedding</button></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"> <br>
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">WeddingID</th>
+                            <th scope="col">Fiancees</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Guests</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                        int? seshUser = @Context.Session.GetInt32("ID");
+                        foreach(var wedding in Model)
+                        {
+                        <tr>
+                            <th scope="row">@wedding.WeddingID</th>
+                            <td><a href="/wedding/@wedding.WeddingID">@wedding.WedderOne & @wedding.WedderTwo</a></td>
+                            <td>@wedding.When.ToString("dddd, MMMM dd yyyy")</td>
+                            <td>@wedding.RSVPs.Count</td>
+                            @{
+                            if(wedding.CreatorID == seshUser)
+                            {
+                            <td><a href="/delete/@wedding.WeddingID">DELETE</a></td>
+                            }
+                            else
+                            {
+                            bool going = false;
+                            foreach(var RSVP in wedding.RSVPs)
+                            {
+                            if(RSVP.User.UserId == (int)seshUser)
+                            {
+                            going = true;
+                            }
+                            }
+                            if(going)
+                            {
+                            <td><a href="/UnRSVP/@wedding.WeddingID">Un-RSVP</a></td>
+                            }
+                            else
+                            {
+                            <td><a href="/RSVP/@wedding.WeddingID">RSVP</a></td>
+                            }
+                            }
+                            }
+                        </tr>
+                        }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>

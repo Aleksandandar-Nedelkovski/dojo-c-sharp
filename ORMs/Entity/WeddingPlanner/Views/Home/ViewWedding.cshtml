@@ -1,0 +1,35 @@
+@using WeddingPlanner.Models
+@model Wedding
+@{
+ViewData["Title"] = "View Wedding";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>@Model.WedderOne and @Model.WedderTwo's Wedding!</h1>
+        </div>
+        <div class="col-2">
+            <a href="/logout"><button type="submit" class="btn btn-danger btn-sm">Log Out</button></a>
+            <a href="/dashboard"><button type="submit" class="btn btn-primary btn-sm">Dashboard</button></a>
+            <a href="/newWedding"><button type="submit" class="btn btn-primary btn-sm">New Wedding</button></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col"> <br>
+            <h4>Date:</h4>
+            <p><b>@Model.When.ToString("dddd, MMMM dd, yyyy")</b></p>
+            <h4>Guest List:</h4>
+            @{
+            foreach(var RSVP in Model.RSVPs)
+            {
+            <p><i>@RSVP.User.FirstName @RSVP.User.LastName </i></p>
+            }
+            }
+            <h4>Address:</h4>
+            <p>@Model.Address</p>
+        </div>
+        <div class="col-3"></div>
+        <div class="col"> <br></div>
+    </div>
+</div>

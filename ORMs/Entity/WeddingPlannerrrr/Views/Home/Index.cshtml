@@ -1,0 +1,20 @@
+<h1>Login</h1>
+Need to Register?
+<a href="register">register</a>
+@using WeddingPlanner.Models
+@model Login
+<form asp-action="LogIn" asp-controller="Home" method="POST">
+    
+    <label asp-for="Email"></label>
+    <input asp-for="Email">
+    
+    <label asp-for="Password"></label>
+    <input asp-for="Password">
+    
+    <input type="submit" valuer="Log In">
+
+    <div id="errors">
+        <span asp-validation-for="Email"></span>
+        <span asp-validation-for="Password"></span>
+    </div>
+</form>

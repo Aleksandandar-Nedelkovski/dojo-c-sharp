@@ -1,0 +1,57 @@
+﻿@using ProductsandCategories.Models
+@model Product
+@{
+ViewData["Title"] = "Products";
+}
+
+
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/products">Products <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/categories">Categories <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-sm"> <br>
+            <h4 class="pt-4 pb-3">Add a new product</h4>
+            <form asp-action="CreateProduct" asp-controller="home" method="POST">
+                <div class="form-group">
+                    <span asp-validation-for="Name" style="font-size:small;color:red;" class="ml-2"></span>
+                    <label asp-for="Name" class="ml-2"></label>
+                    <input asp-for="Name" class="form-control" placeholder="Product Name">
+                </div>
+                <div class="form-group">
+                    <span asp-validation-for="Description" style="font-size:small;color:red;" class="ml-2"></span>
+                    <label asp-for="Description" class="ml-2"></label>
+                    <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <span asp-validation-for="Price" style="font-size:small;color:red;" class="ml-2"></span>
+                    <label asp-for="Price" class="ml-2"></label>
+                    <input asp-for="Price" class="form-control" placeholder="Price">
+                </div>
+                <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+        </div>
+        <div class="col-2"> </div>
+        <div class="col-sm"> <br>
+            <h4 class="pt-4 pb-3">Existing Products</h4>
+            <table class="table table-bordered table-hover bg-white">
+                @foreach (var product in ViewBag.AllProducts) {
+                <tr>
+                    <td><a href="/products/@product.ProductId">@product.Name</a></td>
+                </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>

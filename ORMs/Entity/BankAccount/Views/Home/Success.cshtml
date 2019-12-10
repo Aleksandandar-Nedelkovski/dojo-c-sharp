@@ -1,0 +1,54 @@
+﻿@using BankAccount.Models
+@model Transaction
+@{
+ViewData["Title"] = "Dashboard";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-8"> <br>
+            <h2>Welcome @ViewBag.FirstName @ViewBag.LastName</h2>
+            <p>Current balance: <h4> $@ViewBag.UserBalance</h4>
+            </p>
+        </div>
+        <div class="col-2">
+            <br>
+            <form asp-action="Deposit" asp-controller="Home">
+                <div class="form-group row pr-3">
+                    @Html.Raw(TempData["alertMessage"])
+                    <label asp-for="Amount" class="col-sm-3 col-form-label"></label>
+                    <input type="text" asp-for="Amount" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary mb-3">Submit</button>
+            </form>
+        </div>
+        <div class="col-2"> <br>
+            <a href="/logout"><button type="submit" class="btn btn-primary">Logout</button></a>
+        </div>
+        <hr>
+    </div>
+    <div class="row">
+        <div class="col"> <br>
+            <h5>Transaction History:</h5>
+            <table class="table table-striped">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Amount</th>
+                        <th scope="col">Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var transaction in ViewBag.UsersTransactions)
+                    {
+                    <tr>
+                        <td>@transaction.AmountString</td>
+                        <td>@transaction.CreatedAtString</td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-4"></div>
+    </div>
+</div>

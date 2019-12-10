@@ -1,0 +1,11 @@
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Collections\bin\Debug\netcoreapp2.1\Collections.deps.json
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Collections\bin\Debug\netcoreapp2.1\Collections.runtimeconfig.json
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Collections\bin\Debug\netcoreapp2.1\Collections.runtimeconfig.dev.json
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Collections\bin\Debug\netcoreapp2.1\Collections.dll
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Collections\bin\Debug\netcoreapp2.1\Collections.pdb
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Collections\obj\Debug\netcoreapp2.1\Collections.csprojAssemblyReference.cache
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Collections\obj\Debug\netcoreapp2.1\Collections.csproj.CoreCompileInputs.cache
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Collections\obj\Debug\netcoreapp2.1\Collections.AssemblyInfoInputs.cache
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Collections\obj\Debug\netcoreapp2.1\Collections.AssemblyInfo.cs
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Collections\obj\Debug\netcoreapp2.1\Collections.dll
+c:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\Collections\obj\Debug\netcoreapp2.1\Collections.pdb

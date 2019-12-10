@@ -1,0 +1,11 @@
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\BoxingUnboxing\bin\Debug\netcoreapp2.1\BoxingUnboxing.deps.json
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\BoxingUnboxing\bin\Debug\netcoreapp2.1\BoxingUnboxing.runtimeconfig.json
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\BoxingUnboxing\bin\Debug\netcoreapp2.1\BoxingUnboxing.runtimeconfig.dev.json
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\BoxingUnboxing\bin\Debug\netcoreapp2.1\BoxingUnboxing.dll
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\BoxingUnboxing\bin\Debug\netcoreapp2.1\BoxingUnboxing.pdb
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\BoxingUnboxing\obj\Debug\netcoreapp2.1\BoxingUnboxing.csprojAssemblyReference.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\BoxingUnboxing\obj\Debug\netcoreapp2.1\BoxingUnboxing.csproj.CoreCompileInputs.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\BoxingUnboxing\obj\Debug\netcoreapp2.1\BoxingUnboxing.AssemblyInfoInputs.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\BoxingUnboxing\obj\Debug\netcoreapp2.1\BoxingUnboxing.AssemblyInfo.cs
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\BoxingUnboxing\obj\Debug\netcoreapp2.1\BoxingUnboxing.dll
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\LanguageEssentials\BoxingUnboxing\obj\Debug\netcoreapp2.1\BoxingUnboxing.pdb

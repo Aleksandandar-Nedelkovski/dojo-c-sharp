@@ -1,0 +1,49 @@
+@using BELTEXAM.Models;
+@model Event;
+
+
+<form asp-controller="Home" asp-aciton="NewEvent" method="POST">
+    <label asp-for="Title"></label>
+    <input class="form-control" asp-for="Title">
+
+    <div class="row">
+    <div class="col">
+      <label asp-for="DateOfEvent"></label>
+    <input class="form-control" type="date" asp-for="DateOfEvent">
+    </div>
+    <div class="col">
+        <label asp-for="Time"></label>
+    <input class="form-control" asp-for="Time">
+    </div>
+  </div>
+
+    <div class="row">
+    <div class="col">
+      <label asp-for="Duration"></label>
+    <input class="form-control" type="number" min="1" asp-for="Duration">
+    </div>
+    <div class="col">
+      <label asp-for="DurationUnit"></label>
+    <select class="form-control" asp-for="DurationUnit">
+        <option value=""></option>
+        <option value="Days">Days</option>
+        <option value="Hours">Hours</option>
+        <option value="Minutes">Minutes</option>
+    </select>
+    </div>
+  </div>
+
+
+    <label asp-for="Description"></label>
+    <textarea class="form-control" asp-for="Description" rows="5"></textarea>
+  <div id="errors">
+        <span asp-validation-for="Title"></span>
+        <span asp-validation-for="DateOfEvent"></span>
+        <span asp-validation-for="Time"></span>
+        <span asp-validation-for="Duration"></span>
+        <span asp-validation-for="DurationUnit"></span>
+        <span asp-validation-for="Description"></span>
+    </div>
+
+    <input type="submit" value="Create Activity" class="btn btn-primary">
+</form>

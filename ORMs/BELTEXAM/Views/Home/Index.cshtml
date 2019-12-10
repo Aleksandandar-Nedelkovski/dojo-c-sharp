@@ -1,0 +1,31 @@
+@using BELTEXAM.Models;
+@model User
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <partial name="LoginPartial" />
+        </div>
+        <div class="col-sm">
+            <form asp-controller="Home" asp-action="Register" method="Post">
+                <label asp-for="FirstName"></label>
+                <input class="form-control" asp-for="FirstName">
+                <label asp-for="LastName"></label>
+                <input class="form-control" asp-for="LastName">
+                <label asp-for="Email"></label>
+                <input class="form-control" asp-for="Email">
+                <label asp-for="Password"></label>
+                <input class="form-control" asp-for="Password">
+                <label asp-for="ConfirmPassword"></label>
+                <input class="form-control" asp-for="ConfirmPassword">
+                <input type="submit" class="btn btn-success" value="Register!">
+                <div id="errors">
+                    <span class="error reg-error" asp-validation-for="FirstName"></span>
+                    <span class="error reg-error" asp-validation-for="LastName"></span>
+                    <span class="error reg-error" asp-validation-for="Email"></span>
+                    <span class="error reg-error" asp-validation-for="Password"></span>
+                    <span class="error reg-error" asp-validation-for="ConfirmPassword"></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

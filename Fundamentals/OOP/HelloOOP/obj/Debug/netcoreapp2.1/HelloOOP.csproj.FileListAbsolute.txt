@@ -1,0 +1,11 @@
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HelloOOP\bin\Debug\netcoreapp2.1\HelloOOP.deps.json
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HelloOOP\bin\Debug\netcoreapp2.1\HelloOOP.runtimeconfig.json
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HelloOOP\bin\Debug\netcoreapp2.1\HelloOOP.runtimeconfig.dev.json
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HelloOOP\bin\Debug\netcoreapp2.1\HelloOOP.dll
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HelloOOP\bin\Debug\netcoreapp2.1\HelloOOP.pdb
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HelloOOP\obj\Debug\netcoreapp2.1\HelloOOP.csprojAssemblyReference.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HelloOOP\obj\Debug\netcoreapp2.1\HelloOOP.csproj.CoreCompileInputs.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HelloOOP\obj\Debug\netcoreapp2.1\HelloOOP.AssemblyInfoInputs.cache
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HelloOOP\obj\Debug\netcoreapp2.1\HelloOOP.AssemblyInfo.cs
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HelloOOP\obj\Debug\netcoreapp2.1\HelloOOP.dll
+C:\Users\Aleksandar\Downloads\CD\C#\Fundamentals\OOP\HelloOOP\obj\Debug\netcoreapp2.1\HelloOOP.pdb
